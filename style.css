@@ -22,7 +22,7 @@ header.scrolled{
 header .logo{
 	position: absolute;
 	top:calc(50% - 150px);
-	left: calc(50% - 450px);
+	left: calc(50% - 150px);
 	transition: 1s;
 }
 header.scrolled.logo{

@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 1000px;
+	font-family: sans-serif;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background: #000;
+	transition: 1s;
+	padding: 0 100px;
+	box-sizing: border-box;
+}
+header.scrolled{
+	height: 100px;
+}
+
+header .logo{
+	position: absolute;
+	top:calc(50% - 150px);
+	left: calc(50% - 450px);
+	transition: 1s;
+}
+header.scrolled.logo{
+	position: relative;
+	top: 10px;
+	left: 0;
+}
+header img.banner{
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	transition: 1s;
+}
+header.scrolled img.banner{
+	opacity: 0;
+}
+header .logo img{
+
+	width: 300px;
+	transition: 1s;
+}
+header.scrolled .logo img{
+	width: 80px;
+}
+nav{
+	position: relative;
+	float: right;
+}
+nav ul{
+	position: relative;
+	margin: 0;
+	padding: 40px 0;
+	display: flex;
+	transition: 1s;
+	opacity: 0;
+	visibility: hidden;
+	transition: translateX(100px);
+
+}
+header.scrolled nav ul{
+
+	opacity: 1;
+	visibility: visible;
+	transition: translateX(0px);
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	color: #fff;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+nav ul li a.active{
+	background: #fff;
+	color: #262626;
+}
+///
+

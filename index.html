@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Fullscreen Animated Sticky Navber
+	</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<header >
+			<img src="bg4.jpg" class="banner">
+			<a href="" class="logo"><img src="nrc.png" border="2"></a>
+			<nav>
+				<ul >
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous">  	
+	 </script>
+
+  <script type="text/javascript">
+  	$(window).scroll(function(){
+  		var scroll = $(window).scrollTop();
+  		if(scroll > 0){
+  			$("header").addClass('scrolled');
+  		}
+  		else{
+  			$("header").removeClass('scrolled');
+  		}
+
+  	})
+
+  </script>
+
+</body>
+</html>

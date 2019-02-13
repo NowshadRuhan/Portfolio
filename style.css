@@ -54,7 +54,8 @@ header.scrolled .logo img{
 }
 nav{
 	position: relative;
-	float: right;
+	margin-left: 150px;
+	
 }
 nav ul{
 	position: relative;
@@ -63,13 +64,13 @@ nav ul{
 	display: flex;
 	transition: 1s;
 	opacity: 0;
-	width: 100%;
+	margin-left: 700px;
 	visibility: hidden;
 	transition: translateX(100px);
 
 }
 header.scrolled nav ul{
-
+	margin-left: 700px;
 	opacity: 1;
 	visibility: visible;
 	transition: translateX(0px);
@@ -87,4 +88,5 @@ nav ul li a.active{
 	color: #262626;
 }
 ///
+
 

@@ -18,6 +18,7 @@ header{
 }
 header.scrolled{
 	height: 100px;
+
 }
 
 header .logo{
@@ -53,7 +54,9 @@ header.scrolled .logo img{
 }
 nav{
 	position: relative;
-	margin-left: 200px;
+	float: right;
+	margin-right: -90px;
+	
 }
 nav ul{
 	position: relative;

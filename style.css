@@ -54,9 +54,7 @@ header.scrolled .logo img{
 }
 nav{
 	position: relative;
-	float: right;
-	
-	
+	margin-left: 130px;
 }
 nav ul{
 	position: relative;

@@ -55,7 +55,7 @@ header.scrolled .logo img{
 nav{
 	position: relative;
 	float: right;
-	margin-right: -100px;
+	margin-right: -105px;
 	
 }
 nav ul{
@@ -88,4 +88,3 @@ nav ul li a.active{
 	background: #fff;
 	color: #262626;
 }
-
